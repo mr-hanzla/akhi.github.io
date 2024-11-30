@@ -1,7 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 20px;
+            background: #fff;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        .hero-section button {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .hero-section button:hover {
+            background: #0056b3;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 20px;
+            background: #f4f4f4;
+        }
+
+        .feature-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 20px;
+            flex: 1 1 calc(30% - 30px);
+            max-width: calc(30% - 30px);
+            text-align: center;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        footer {
+            background: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .feature-card {
+                flex: 1 1 calc(100% - 30px);
+                max-width: calc(100% - 30px);
+            }
+        }
+    </style>
+</head>
+
 <body>
-<h1>Salam Akhi! Did you offer your prayer today? 😀</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Welcome to Akhi! - an app for ummah!</h1>
+    </header>
+
+    <section class="hero-section">
+        <h1>Build Something Amazing</h1>
+        <p>Discover endless possibilities and take your projects to the next level with our cutting-edge solutions.</p>
+        <button>Get Started</button>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>Feature One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Feature Two</h3>
+            <p>Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Feature Three</h3>
+            <p>Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Akhi. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>

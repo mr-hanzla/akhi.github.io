@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Hanzla Khalid</title>
+    <title>Hanzla Khalid - Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,118 +13,138 @@
             color: #333;
             line-height: 1.6;
         }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
         .container {
-            max-width: 900px;
+            width: 90%;
+            max-width: 1100px;
             margin: 20px auto;
             padding: 20px;
             background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .header {
-            text-align: center;
-            padding: 10px;
-            border-bottom: 2px solid #007BFF;
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
         }
-        .header h1 {
-            margin: 0;
-            font-size: 2rem;
-            color: #007BFF;
+        ul {
+            list-style: none;
+            padding: 0;
         }
-        .header p {
+        ul li {
             margin: 5px 0;
         }
-        .section {
+        .contact-info, .skills, .languages, .hobbies {
             margin-bottom: 20px;
         }
-        .section h2 {
-            color: #007BFF;
-            margin-bottom: 10px;
-        }
-        .experience, .projects {
-            margin-bottom: 15px;
-        }
-        .experience h3, .projects h3 {
-            margin: 5px 0;
-            font-size: 1.2rem;
-            color: #444;
-        }
-        .experience p, .projects p {
-            margin: 5px 0;
-            color: #555;
-        }
-        .skills span {
-            display: inline-block;
-            background: #007BFF;
-            color: #fff;
-            padding: 5px 10px;
-            border-radius: 20px;
-            margin: 5px;
-            font-size: 0.9rem;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.9rem;
-            color: #666;
+        .section {
+            margin-bottom: 30px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Hanzla Khalid</h1>
+        <p>Software Engineer | Aspiring Machine Learning Engineer</p>
+    </header>
+
     <div class="container">
-        <div class="header">
-            <h1>Hanzla Khalid</h1>
-            <p>Tampere, Finland | mr.hanzla101@gmail.com | +358449383772</p>
+        <div class="contact-info section">
+            <h2>Contact Info</h2>
+            <p><strong>Location:</strong> Tampere, Finland</p>
+            <p><strong>Email:</strong> mr.hanzla101@gmail.com</p>
+            <p><strong>Phone:</strong> +358449383772</p>
         </div>
 
-        <div class="section">
+        <div class="skills section">
+            <h2>Skills & Strengths</h2>
+            <ul>
+                <li>iOS Development</li>
+                <li>Android Development</li>
+                <li>Python Programming</li>
+                <li>Ubuntu (Linux)</li>
+                <li>Kotlin</li>
+                <li>Swift</li>
+            </ul>
+        </div>
+
+        <div class="experience section">
             <h2>Professional Experience</h2>
-            <div class="experience">
-                <h3>iOS Developer Intern - Daira Engineering</h3>
-                <p><strong>Apr 2024 - Jul 2024</strong></p>
-                <p>Contributed to production code, applying theoretical knowledge to real-world challenges.</p>
-            </div>
-            <div class="experience">
-                <h3>Computer Instructor (iOS) - Self-Employed</h3>
-                <p><strong>Nov 2023 - Jul 2024</strong></p>
-                <p>Delivered professional courses, including iOS Development and Python Programming.</p>
-            </div>
-            <div class="experience">
-                <h3>Software Engineer - NorthBay Solutions</h3>
-                <p><strong>Oct 2022 - Jul 2023</strong></p>
-                <p>Implemented NLP techniques for Semantic Search and enhanced vector database management.</p>
-            </div>
-            <!-- Add more experiences as needed -->
+            <h3>Internship - iOS Developer</h3>
+            <p><strong>DAIRA ENGINEERING - Lahore, Pakistan | Apr 2024 - Jul 2024</strong></p>
+            <ul>
+                <li>Leveraged self-learning to secure an internship and contribute to production code.</li>
+                <li>Applied theoretical knowledge to solve real-world challenges, improving efficiency by 15%.</li>
+            </ul>
+
+            <h3>Software Engineer</h3>
+            <p><strong>NORTHBAY SOLUTIONS - Lahore, Pakistan | Oct 2022 - Jul 2023</strong></p>
+            <ul>
+                <li>Applied NLP techniques for semantic search and text segmentation.</li>
+                <li>Utilized HuggingFace models and managed high-dimensional vector databases.</li>
+            </ul>
+
+            <h3>Amazon Account Handler</h3>
+            <p><strong>TECHNOIDS - Lahore, Pakistan | Jan 2021 - Sep 2022</strong></p>
+            <ul>
+                <li>Managed PPC campaigns, boosting product visibility by 20%.</li>
+                <li>Optimized listings and analyzed market trends for strategic growth.</li>
+            </ul>
         </div>
 
-        <div class="section">
+        <div class="education section">
             <h2>Education</h2>
-            <p><strong>Masters in Signal Processing & Machine Learning</strong> - Tampere University, Finland (2026)</p>
-            <p><strong>Bachelors in Computer Science</strong> - University of Central Punjab, Pakistan (2020)</p>
+            <p><strong>Tampere University</strong> (MTech in Signal Processing & Machine Learning - 2026)</p>
+            <p><strong>University of Central Punjab</strong> (BSc in Computer Science - 2020, 3.5 GPA)</p>
         </div>
 
-        <div class="section">
+        <div class="certifications section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Supervised Machine Learning: Regression and Classification (Coursera, 2023)</li>
+                <li>Amal Career-Prep Fellowship (Amal Academy, 2021)</li>
+                <li>Basic Web Development Course (UCP-ACM, 2018)</li>
+            </ul>
+        </div>
+
+        <div class="projects section">
             <h2>Projects</h2>
-            <div class="projects">
-                <h3>TicTacToe</h3>
-                <p><strong>Tools:</strong> Android Studio (Kotlin), Xcode (Swift)</p>
-                <p>Developed a cross-platform TicTacToe game utilizing Jetpack Compose and SwiftUI.</p>
-            </div>
+            <h3>Self-Learning (Mobile App Development - iOS)</h3>
+            <ul>
+                <li>Mastered software engineering concepts including SOLID principles and Data Structures.</li>
+                <li>Created mock projects and tutorials to enhance practical learning outcomes.</li>
+            </ul>
+            <h3>TicTacToe Game</h3>
+            <ul>
+                <li>Built with Kotlin (Jetpack Compose) and SwiftUI.</li>
+                <li>Incorporated ViewModel and data persistence for efficient state management.</li>
+            </ul>
         </div>
 
-        <div class="section">
-            <h2>Skills</h2>
-            <div class="skills">
-                <span>iOS Development</span>
-                <span>Android Development</span>
-                <span>Python</span>
-                <span>Ubuntu (Linux)</span>
-                <!-- Add more skills as needed -->
-            </div>
+        <div class="languages section">
+            <h2>Languages</h2>
+            <ul>
+                <li>Punjabi - Native</li>
+                <li>Urdu - Native</li>
+                <li>English - Medium</li>
+            </ul>
         </div>
-    </div>
-    <div class="footer">
-        <p>&copy; 2024 - Resume of Hanzla Khalid</p>
+
+        <div class="hobbies section">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Reading Books</li>
+                <li>Indoor and Outdoor Games</li>
+                <li>Watching Movies</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
